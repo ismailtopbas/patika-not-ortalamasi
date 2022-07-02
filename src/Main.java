@@ -31,10 +31,8 @@ public class Main {
 
         int toplam = (mat + fizik + kimya + turkce + muzik + tarih + beden);
         double sonuc = toplam / 7.0;
-        boolean kosul1 = sonuc >= 60;
-        boolean kosul2 = sonuc <= 60;
-        boolean kosulsonuc = kosul1 || kosul2;
-        String ortalama = kosulsonuc ? " Geçti" : " Kaldı";
+        boolean kosul = sonuc >= 60;
+        String ortalama = kosul ? " Geçti" : " Kaldı";
 
         System.out.println("Ortalamanız:" +  sonuc + ortalama);
 
