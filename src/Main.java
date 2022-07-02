@@ -8,22 +8,22 @@ public class Main {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("Fizik Notunuz :");
+        System.out.print("Fizik Notunuz:");
         fizik = inp.nextInt();
 
-        System.out.print("Kimya Notunuz :");
+        System.out.print("Kimya Notunuz:");
         kimya = inp.nextInt();
 
-        System.out.print("Türkçe Notunuz :");
+        System.out.print("Türkçe Notunuz:");
         turkce = inp.nextInt();
 
-        System.out.print("Tarih Notunuz :");
+        System.out.print("Tarih Notunuz:");
         tarih = inp.nextInt();
 
-        System.out.print("Müzik Notunuz :");
+        System.out.print("Müzik Notunuz:");
         muzik = inp.nextInt();
 
-        System.out.print("Matematik Notunuz :");
+        System.out.print("Matematik Notunuz:");
         mat = inp.nextInt();
 
         int toplam = (mat + fizik + kimya + turkce + muzik + tarih);
