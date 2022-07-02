@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[]   args){
 
-        int mat,fizik,kimya,turkce,tarih,muzik;
+        int mat,fizik,kimya,turkce,tarih,muzik,beden;
 
 
         Scanner inp = new Scanner(System.in);
@@ -26,8 +26,11 @@ public class Main {
         System.out.print("Matematik Notunuz:");
         mat = inp.nextInt();
 
-        int toplam = (mat + fizik + kimya + turkce + muzik + tarih);
-        double sonuc = toplam / 6.0;
+        System.out.print("Beden Notunuz:");
+        beden = inp.nextInt();
+
+        int toplam = (mat + fizik + kimya + turkce + muzik + tarih + beden);
+        double sonuc = toplam / 7.0;
         boolean kosul1 = sonuc >= 60;
         boolean kosul2 = sonuc <= 60;
         boolean kosulsonuc = kosul1 || kosul2;
